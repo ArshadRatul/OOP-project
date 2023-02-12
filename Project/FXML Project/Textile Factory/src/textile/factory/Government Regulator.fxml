@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="553.0" prefWidth="903.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textile.factory.GovernmentRegulatorController">
+   <top>
+      <BorderPane prefHeight="63.0" prefWidth="741.0" BorderPane.alignment="CENTER">
+         <left>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="64.0" text="Home" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </left>
+         <right>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Button mnemonicParsing="false" onMouseClicked="#LogoutButton" prefHeight="31.0" prefWidth="70.0" text="Logout" textFill="RED" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </right>
+         <center>
+            <Label prefHeight="47.0" prefWidth="250.0" text="ARSHAD TEXTILE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </top>
+   <center>
+      <BorderPane prefHeight="409.0" prefWidth="741.0" BorderPane.alignment="CENTER">
+         <center>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="378.0" layoutY="43.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="157.0" text="Check Legal papers" />
+                  <Button layoutX="380.0" layoutY="125.0" mnemonicParsing="false" onMouseClicked="#UpdateRuleButton" prefHeight="40.0" prefWidth="159.0" text="Update Rules" />
+                  <Button layoutX="377.0" layoutY="348.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="166.0" text="Check Appointment" />
+                  <Button layoutX="377.0" layoutY="198.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="159.0" text="Check Transactions " />
+                  <Button layoutX="376.0" layoutY="277.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="168.0" text="Check Tax infromation" />
+               </children>
+            </AnchorPane>
+         </center></BorderPane>
+   </center>
+</BorderPane>

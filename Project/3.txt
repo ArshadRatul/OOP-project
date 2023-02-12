@@ -1,0 +1,44 @@
+File f; FileWriter fw=null;
+        try{
+            f=new File("Database.txt");
+            if(f.exists()){
+                if(LoginCheck()==true)
+                {
+                    WrongPasswordText.setText("Success");
+                    if(Combobox.getValue().equals("Managing Director"))
+                    {
+                        Parent newparent= FXMLLoader.load(getClass().getResource("Managing Director.fxml"));
+                        Scene secne2=new Scene(newparent);
+                        Stage newstage=(Stage)((Node)event.getSource()).getScene().getWindow();
+                    }
+                }
+                else
+                {
+                    WrongPasswordText.setText("Wrong username or password");
+                }
+            }
+            else{
+                String FM= "F.A Topu,Topu,Topu123,Factory Manager,1841501785,FM@gmail.com,24/02/1998,12 hello Banglabazar Dhaka 1100\n";
+                String MD="Mohammad Arsahd Hossain Ratul,Ratul,Ratul123,Managing Director,1841501748,1930319@iub.edu.bd,03/07/1999,12 hello Banglabazar Dhaka 1100\n";
+                fw= new FileWriter(f);
+                fw.write(MD);
+                fw.append(FM);
+            }
+        }catch(IOException e){
+            System.out.println("ERROR");
+        }
+        finally{
+            try {
+                fw.close();
+            } catch (IOException ex) {
+                Logger.getLogger(LoginUIController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            if(LoginCheck()==true)
+                {
+                    WrongPasswordText.setText("Success.");
+                }
+                else
+                {
+                    WrongPasswordText.setText("Wrong username or password");
+                }
+        }

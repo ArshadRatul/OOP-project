@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textile.factory.SetReminderController">
+   <children>
+      <Button layoutX="14.0" layoutY="441.0" mnemonicParsing="false" onMouseClicked="#BackButton" text="&lt;Back" />
+      <Button layoutX="33.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#HomeButton" text="Home" />
+      <DatePicker fx:id="date" layoutX="234.0" layoutY="296.0" promptText="Click here" />
+      <Label layoutX="141.0" layoutY="301.0" text="Date:" />
+      <Label layoutX="142.0" layoutY="120.0" text="Title:" />
+      <Label layoutX="120.0" layoutY="167.0" text="Description:" />
+      <TextField fx:id="title" layoutX="234.0" layoutY="115.0" prefHeight="31.0" prefWidth="307.0" promptText="Click here" />
+      <TextArea fx:id="description" layoutX="234.0" layoutY="167.0" prefHeight="102.0" prefWidth="307.0" promptText="Click here" />
+      <Button layoutX="436.0" layoutY="365.0" mnemonicParsing="false" onMouseClicked="#setreminderButton" text="Set reminder" />
+      <Button layoutX="541.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#LogoutButton" text="Logout" textFill="RED" />
+   </children>
+</AnchorPane>

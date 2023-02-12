@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="MidPart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="566.0" prefWidth="856.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textile.factory.SuppliersController">
+   <top>
+      <BorderPane prefHeight="63.0" prefWidth="741.0" BorderPane.alignment="CENTER">
+         <left>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Button mnemonicParsing="false" onMouseClicked="#HomeButton" prefHeight="31.0" prefWidth="64.0" text="Home" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </left>
+         <right>
+            <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <center>
+                  <Button mnemonicParsing="false" onMouseClicked="#LogoutButton" prefHeight="31.0" prefWidth="70.0" text="Logout" textFill="RED" BorderPane.alignment="CENTER" />
+               </center>
+            </BorderPane>
+         </right>
+         <center>
+            <Label prefHeight="47.0" prefWidth="250.0" text="ARSHAD TEXTILE" BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+         </center>
+      </BorderPane>
+   </top>
+   <center>
+      <AnchorPane prefHeight="523.0" prefWidth="856.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="330.0" layoutY="128.0" mnemonicParsing="false" onMouseClicked="#checkOrders" prefHeight="56.0" prefWidth="199.0" text="Check Orders" />
+            <Button layoutX="330.0" layoutY="275.0" mnemonicParsing="false" onMouseClicked="#checkBills" prefHeight="56.0" prefWidth="198.0" text="Check Bills" />
+            <Button layoutX="331.0" layoutY="57.0" mnemonicParsing="false" onMouseClicked="#checkAppointments" prefHeight="55.0" prefWidth="198.0" text="Check Appointments" />
+            <Button layoutX="330.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#checkFeedback" prefHeight="56.0" prefWidth="199.0" text="Check Feedback " />
+            <Button layoutX="328.0" layoutY="355.0" mnemonicParsing="false" onMouseClicked="#addUpdateButton" prefHeight="56.0" prefWidth="201.0" text="ADD/Update Product List" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,6 @@
+Softwool,Wool,100,50,This product costs 50taka per kg and the quantity is in kg
+asdfasdfasd,Wool,500,100,This product costs 50taka per kg and the quantity is in kg
+Hardsilk,Silk,150,100,This product costs 50taka per kg and the quantity is in kg
+SoftSilk,Silk,150,100,This product costs 50taka per kg and the quantity is in kg
+Plastic,Polyester,150,100,This product costs 50taka per kg and the quantity is in kg
+Casing,Polyester,150,100,This product costs 50taka per kg and the quantity is in kg

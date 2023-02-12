@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="787.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textile.factory.OrderRawMaterialsController">
+   <children>
+      <RadioButton fx:id="Mechinery" layoutX="51.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Machinery" />
+      <Label layoutX="317.0" layoutY="14.0" text="Order Raw Materials">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Silk" layoutX="169.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Silk" />
+      <RadioButton fx:id="Wool" layoutX="245.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Wool" />
+      <RadioButton fx:id="Cotton" layoutX="333.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Cotton" />
+      <RadioButton fx:id="Royon" layoutX="435.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Royon" />
+      <RadioButton fx:id="Polyester" layoutX="525.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Polyester" />
+      <RadioButton fx:id="Nylon" layoutX="640.0" layoutY="52.0" mnemonicParsing="false" onAction="#radioButton" text="Nylon" />
+      <TableView fx:id="Tableview" layoutX="14.0" layoutY="99.0" prefHeight="353.0" prefWidth="752.0">
+        <columns>
+          <TableColumn fx:id="ProductName" prefWidth="161.0" text="Product name " />
+          <TableColumn fx:id="AmountAvailable" prefWidth="168.0" text="Amount available" />
+            <TableColumn fx:id="Price" prefWidth="159.0" text="Price" />
+            <TableColumn fx:id="Description" prefWidth="263.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="354.0" layoutY="470.0" mnemonicParsing="false" onMouseClicked="#OrderButton" prefHeight="31.0" prefWidth="73.0" text="Order" />
+   </children>
+</AnchorPane>

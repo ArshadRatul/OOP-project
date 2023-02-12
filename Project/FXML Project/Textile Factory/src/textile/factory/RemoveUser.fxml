@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="445.0" prefWidth="684.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textile.factory.RemoveUserController">
+   <children>
+      <Label layoutX="147.0" layoutY="102.0" text="Username:" />
+      <Label layoutX="144.0" layoutY="149.0" prefHeight="21.0" prefWidth="70.0" text="Category:" />
+      <TextField fx:id="username" layoutX="230.0" layoutY="97.0" prefHeight="31.0" prefWidth="251.0" promptText="Enter here" />
+      <ComboBox fx:id="category" layoutX="230.0" layoutY="144.0" prefHeight="31.0" prefWidth="251.0" promptText="Select here" />
+      <Button layoutX="373.0" layoutY="233.0" mnemonicParsing="false" onMouseClicked="#removeUser" text="Remove User" />
+      <Label fx:id="ErrorText" layoutX="203.0" layoutY="233.0" prefHeight="31.0" prefWidth="108.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="807.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Doctor1stSceneController">
+   <children>
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backBtnOnClick" text="Back" />
+      <Button fx:id="registerBtn" layoutX="94.0" layoutY="141.0" mnemonicParsing="false" onAction="#registerBtnOnClick" text="Register" />
+      <Button fx:id="checkBMAHisotyrBtn" layoutX="98.0" layoutY="246.0" mnemonicParsing="false" onAction="#checkBMAHistoryBtnOnClick" text="Check BMA History" />
+      <Button fx:id="checkBMAConstitutionBtn" layoutX="98.0" layoutY="367.0" mnemonicParsing="false" onAction="#checkBMAConstitutionBtnOnClick" text="Check the BMA Constitution" />
+      <Button fx:id="sendMessageBtn" layoutX="98.0" layoutY="497.0" mnemonicParsing="false" onAction="#sendMessageBtnOnClick" text="Send the massage another member" />
+   </children>
+</AnchorPane>

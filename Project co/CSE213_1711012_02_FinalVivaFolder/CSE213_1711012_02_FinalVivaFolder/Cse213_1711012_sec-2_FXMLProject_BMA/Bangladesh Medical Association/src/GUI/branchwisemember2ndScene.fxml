@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="631.0" prefWidth="789.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="286.0" layoutY="48.0" text="Branch wise member">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="74.0" layoutY="116.0" mnemonicParsing="false" text="Selected the Branch name" />
+      <Button layoutX="74.0" layoutY="190.0" mnemonicParsing="false" text="Selected the Branch Division" />
+      <Button layoutX="74.0" layoutY="274.0" mnemonicParsing="false" text="Input the member type" />
+      <Button layoutX="74.0" layoutY="364.0" mnemonicParsing="false" text="view and print member details" />
+      <Button layoutX="74.0" layoutY="52.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>

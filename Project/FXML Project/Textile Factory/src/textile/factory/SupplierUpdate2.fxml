@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="textile.factory.SupplierUpdate2Controller">
+   <children>
+      <TableView fx:id="Tableview" layoutX="11.0" layoutY="52.0" prefHeight="357.0" prefWidth="747.0">
+        <columns>
+          <TableColumn fx:id="NameColumn" prefWidth="130.0" text="Name" />
+          <TableColumn fx:id="SectorColumn" minWidth="0.0" prefWidth="122.0" text="Sector" />
+            <TableColumn fx:id="QuantityColumn" prefWidth="130.0" text="Quantity" />
+            <TableColumn fx:id="PriceColumn" prefWidth="137.0" text="Price" />
+            <TableColumn fx:id="DecriptionColumn" prefWidth="225.0" text="Decriprion" />
+        </columns>
+      </TableView>
+      <Label layoutX="345.0" layoutY="14.0" text="Update" />
+      <Button layoutX="337.0" layoutY="422.0" mnemonicParsing="false" onMouseClicked="#DeleteButton" text="Delete" />
+   </children>
+</AnchorPane>

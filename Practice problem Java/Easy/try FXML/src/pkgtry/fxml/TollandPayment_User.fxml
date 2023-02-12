@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="610.0" prefWidth="1114.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgtry.fxml.FXMLDocumentController">
+   <children>
+      <Label layoutX="146.0" layoutY="128.0" text="Enter X;" />
+      <Label layoutX="146.0" layoutY="189.0" text="Enter Y:" />
+      <Label fx:id="result" layoutX="146.0" layoutY="262.0" text="Result:" />
+      <TextField fx:id="value_of_X" layoutX="211.0" layoutY="123.0" />
+      <TextField fx:id="value_of_Y" layoutX="211.0" layoutY="184.0" />
+      <Button fx:id="add_button" layoutX="139.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#add_button" prefHeight="31.0" prefWidth="97.0" text="Add" />
+      <Button fx:id="sub" layoutX="305.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#sub_button" prefHeight="31.0" prefWidth="97.0" text="Sub" />
+      <Button fx:id="Multi" layoutX="472.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#Multi_button" prefHeight="31.0" prefWidth="97.0" text="Multi" />
+      <Button fx:id="div" layoutX="627.0" layoutY="326.0" mnemonicParsing="false" onMouseClicked="#div" prefHeight="31.0" prefWidth="97.0" text="Div" />
+      <PasswordField fx:id="passx" layoutX="427.0" layoutY="123.0" />
+      <PasswordField fx:id="passy" layoutX="427.0" layoutY="184.0" />
+   </children>
+</AnchorPane>

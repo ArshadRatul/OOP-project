@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="216.0" layoutY="54.0" text="Make Appointment to Ministry of Health">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="108.0" layoutY="121.0" text="Candidate information">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="94.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="118.0" layoutY="415.0" mnemonicParsing="false" text="Appiont the candidate" />
+      <Label layoutX="470.0" layoutY="125.0" text="Fix the joining date &amp; time">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="465.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" />
+      <Button layoutX="539.0" layoutY="415.0" mnemonicParsing="false" text="Save" />
+      <Button layoutX="42.0" layoutY="42.0" mnemonicParsing="false" text="Back" />
+   </children>
+</AnchorPane>
